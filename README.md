@@ -1,2 +1,0 @@
-# repository
-project_demo
