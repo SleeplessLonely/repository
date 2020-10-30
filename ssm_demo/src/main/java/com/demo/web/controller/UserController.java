@@ -1,9 +1,7 @@
 package com.demo.web.controller;
 
-import com.alibaba.fastjson.JSONObject;
-import com.demo.dao.entry.User;
-import com.demo.service.UserService;
-import com.demo.service.bo.UserBo;
+import java.util.List;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +9,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.util.List;
+import com.alibaba.fastjson.JSONObject;
+import com.demo.dao.entry.User;
+import com.demo.service.UserService;
 
 /**
  * @Author:anxindong

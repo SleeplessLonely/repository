@@ -1,9 +1,8 @@
 package com.demo.service;
 
-import com.demo.dao.entry.User;
-import com.demo.service.bo.UserBo;
-
 import java.util.List;
+
+import com.demo.dao.entry.User;
 
 /**
  * @Author:anxindong
